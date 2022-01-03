@@ -1,5 +1,11 @@
 # README
 
+## Authors
+* [Zheng Ji Tan](https://github.com/Just-ZJ)
+* [Tyler Frantz](https://github.com/tylerfrantz)
+* [Karthick Sivasubramanian](https://github.com/ksiva14)
+* [Justin King](https://github.com/jking3019)
+
 ## Model
 ![image](https://user-images.githubusercontent.com/54641137/144972870-57352e3e-8d51-450b-b3f5-c5eea27fb5cb.png)
 In our model, we start with a user, who has many students and professors, depending on who logs in. In this class, the name, email, and password entered are validated. Students are users, on a team, and have many evaluations. A professor(our admin) is a user and in a course. Courses have many professors, teams, and projects. Teams belong in a class and have many evaluations, projects, project teams, and students. Projects belong in a course, and has many teams that are doing that project, as well as project teams. Project teams belong to projects and teams. Evaluations belong to teams, assigned by admins. 
